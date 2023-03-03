@@ -1,0 +1,9 @@
+.App{
+  background: url(./assets/karsten-winegeart-0Wra5YYVQJE-unsplash.jpg);
+  height: 100vh;
+  width: 100%;
+  min-height: 100vh;
+  background-size: cover;
+  
+
+}

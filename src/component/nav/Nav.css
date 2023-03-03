@@ -1,0 +1,25 @@
+.container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 8rem;
+background-color: grey;
+background: sticky;
+}
+.logo{
+    display: flex;
+    padding-left:25px;
+    align-items: center;
+}
+.logo-text{
+    color:var( --light-blue)
+}
+menu{
+    display: flex;
+    justify-content: space-between;
+}
+.nav_bar{
+    display: flex;
+    list-style: none;
+    
+}
