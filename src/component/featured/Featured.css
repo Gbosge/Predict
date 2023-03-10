@@ -1,0 +1,9 @@
+.feature{
+    height: 100vh;
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+}
+.features-left{
+    background-image: url(/src/assets/connor-coyne-OgqWLzWRSaI-unsplash\ \(1\).jpg);
+}

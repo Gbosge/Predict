@@ -1,6 +1,7 @@
 import React from 'react'
 import './Nav.css'
 import {GiWingfoot} from 'react-icons/gi'
+import { Link } from 'react-router-dom'
 
 const Nav = () => {
   return (
@@ -9,25 +10,19 @@ const Nav = () => {
             <GiWingfoot color='red' size={30}/>
             <p className='logo-text'>SoccerTips</p>
         </div>
-    <menu>
-            <ul className='nav_bar'>
-                <li>
-                <a href="">Home</a>
-                </li>
-                <li>
-                <a href="">Featured Picks</a>
-                </li>
-                <li>
-                <a href="">Schedules</a>
-                </li>
-                <li>
-                <a href="">Contact Us</a>
-                </li>
-                
+
+        
+        <menu>
+            <ul className='nav-bar'>
+              <Link to='/'><li>Home</li></Link>
+              <Link to='/Featured'><li>Featured Picks</li></Link>
+              <Link to='/Subscribe'><li>Subscribe</li></Link>
+              <Link to='/Contact'><button className='btn_1'>Contact Us</button></Link>
             </ul>
-    </menu>
+        </menu>
 
     </nav>
+    
   )
 }
 
